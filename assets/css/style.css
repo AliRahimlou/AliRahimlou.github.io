@@ -1,4 +1,4 @@
-box {
+/* box {
 	width: 100%;
 	background-color: white;
 	padding: 40px;
@@ -7,34 +7,36 @@ box {
 	left: 0;
 	border-bottom: 3px solid #cccccc;
 	z-index: 99;	
-  }
+  } */
 
 name {
   background-color:#4aaaa5;
 	color: white;
-	padding: 25;
+	padding: 25px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size:20pt;
 	position: absolute;
-	left: 0;
-	top: 0;		
+	margin: 0 0 0 138;
+			
  }
 
 header {
+	height: 12.4%;
+	width: 100vw;
 	background-color: #ffffff;
 	position:fixed;
 	top: 0;
-	width: 960px;
 	font-size: 12px;
-	padding: 30;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	z-index: 99;
-	text-align: center;
+	left: 0px;
+	border-bottom: 3px solid #cccccc;
  }
 
 links {
 	position: absolute;
 	right: 10px;
+	margin: 30 120 0 0;
 }
 
 a:hover { 
@@ -53,12 +55,16 @@ a:hover {
 	border-bottom: 3px solid #cccccc;	 
 }
 
-body {
+#aboutMe {
   color: #777777;
   width: 960px;
   font-size: 18px;
-  margin-left:40;
-  margin-right: auto;  
+  margin: auto;
+  border: 2px solid #cccccc;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;		
+
 }
 
 
@@ -79,7 +85,7 @@ footer {
 div {
 	border: 2px solid #cccccc;
 	padding: 20px;
-  background-color: #ffffff;
+  	background-color: #ffffff;
 	width: 960px;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;		
 }
