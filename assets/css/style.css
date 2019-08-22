@@ -22,7 +22,7 @@ name {
 
 header {
 	background-color: #ffffff;
-	position:absolute;
+	position:fixed;
 	top: 0%;
 	width: 960px;
 	font-size: 12px;
